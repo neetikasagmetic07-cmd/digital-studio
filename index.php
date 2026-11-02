@@ -6,7 +6,7 @@
  */
 
 get_header();
-?>
+?> 
 <main id="main">
 	<?php if ( is_home() || is_front_page() ) : ?>
 		<section class="hero content-wrap" aria-labelledby="hero-title">
