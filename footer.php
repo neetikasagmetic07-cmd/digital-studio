@@ -3,7 +3,7 @@
  * The footer template.
  *
  * @package Digital_Studio
- */
+ */ 
 $footer_settings = function_exists( 'get_field' ) ? get_field( 'footer_settings', 'option' ) : array();
 $footer_settings = is_array( $footer_settings ) ? $footer_settings : array();
 $footer_logo_id  = isset( $footer_settings['logo'] ) ? absint( $footer_settings['logo'] ) : 0;
